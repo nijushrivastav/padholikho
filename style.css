@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #04173d;
+    color: white;
+}
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    background: #02153c;
+  }
+  
+  .navbar nav a,
+  .navbar .buttons a {
+    margin: 0 0.75rem;
+    text-decoration: none;
+    color: white;
+  }
+  .buttons a:last-child{
+    background-color: rgb(30, 150, 210);
+    font-weight: 500;
+    padding:0.5rem 1rem;
+    border-radius: 0.3rem;
+
+  }
+  .text {
+    padding: 3rem;
+    align-items: center;
+  }
+   .text h1{
+    font-size: 3rem;
+    margin: 0%;
+   }
+  .small-heading {
+    color: #1e90ff;
+    font-weight: bold;
+  }
+  .button{
+    display:flex;
+    gap: 0.5rem;
+  }
+  .parent{
+    background: #1e90ff;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 0.2rem;
+  }
+  
+  .child {
+    border: 2px solid rgb(28, 117, 181);
+    color: rgb(61, 142, 212);
+    padding: 0.7rem 2rem ;
+    text-decoration: none;
+    border-radius: 0.2rem;
+  }
+  
+
+
+  
+
+  
