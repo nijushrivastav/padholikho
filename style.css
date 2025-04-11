@@ -27,9 +27,16 @@ body {
   border-radius: 0.3rem;
 
 }
+.container{
+display: flex;
+margin: 1rem auto;
+justify-content: space-between;
+width: 75vw;
+gap: 2rem;
+}
 
 .text {
-  padding: 3rem;
+  padding: 1rem;
   align-items: center;
 }
 
@@ -69,22 +76,81 @@ body {
   width: 500px;
   height: 500px;
   position: relative;
-  margin-left: 900px;
-    margin-top: -412px;
+  
 }
 .circle{
   position: absolute;
-  width:300px;
-  height: 300px;
+  width:360px;
+  height: 360px;
   background: #6ee7b7; 
   border-radius: 50%;
-  top: 50%;
-  left: 50%;
+  top: 42%;
+  left: 53%;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
 .person{
-  position: relative;
+  position: absolute;
   width: 100%;
-  z-index: 2;
+  z-index: 1;
+}
+
+.box {
+  position: absolute;
+  border:20px;
+  width: 135px;
+  z-index: 3;
+}
+.box:hover{
+  scale: 1.1;
+}
+
+.box2{
+  position: absolute;
+  z-index: 3;
+  bottom: -60px;
+  right: 5px;
+
+}
+.box2:hover{
+  scale: 1.1;
+}
+
+.box1{
+  position: absolute;
+   z-index: 1;
+   bottom: -10px;
+   width: 280px;
+   left: -50px;
+}
+.box1:hover{
+  scale: 1.1;
+}
+.box3{
+  position: absolute;
+  z-index: 5;
+  top: 240px;
+  left:-30px;
+  width: 40px;
+}
+.box3:hover{
+  scale: 1.1;
+}
+.box5{
+  position: absolute;
+  z-index: 5;
+  right: 40px;
+  bottom: 400px;
+}
+.box5:hover{
+  scale: 1.1;
+}
+.box4{
+  position: absolute;
+  z-index: 0;
+  bottom: -65px;
+  left: 240px;
+}
+.box4:hover{
+  scale: 1.1;
 }
